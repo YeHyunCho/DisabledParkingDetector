@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>주차 관리 시스템</h1>
+        <div class="button-container">
+            <a href="/illegal" class="button">불법 차량 번호판 확인하기</a>
+            <a href="/disabled" class="button">장애인 주차장에서 감지된 물체 확인하기</a>
+        </div>
+    </div>
+</body>
+</html>
